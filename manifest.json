@@ -2,20 +2,23 @@
   "name": "AI’s the B’y – Boat Buddy",
   "short_name": "Boat Buddy",
   "description": "An offline-first companion app for sailboat owners.",
-  "start_url": "/",
+    "start_url": "/boat-buddy/",
+  "scope": "/boat-buddy/",    
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0f172a",
   "icons": [
     {
-      "src": "/icons/icon-192x192.png",
+     "src": "/boat-buddy/icons/icon-192x192.png", 
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png"",
+      "purpose": "any maskable"
     },
     {
-      "src": "/icons/icon-512x512.png",
+     "src": "/boat-buddy/icons/icon-512x512.png", 
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png"",
+      "purpose": "any maskable"
     }
   ]
 }
